@@ -1,8 +1,23 @@
 aid: skyboximaging
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skyboximaging.png
 name: Skyboximaging
-description: 'Skyboximaging is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Skybox Imaging was a satellite imaging and geospatial-analytics company (founded 2009, Mountain
+  View, CA) that built a constellation of small high-resolution Earth-observation satellites (SkySat) and
+  the analytics to turn frequent imagery into commercial insight. Backed by Norwest Venture Partners, Bessemer,
+  Khosla Ventures and others, it was acquired by Google in 2014 (~$500M), renamed Terra Bella, and its satellite
+  business was sold to Planet Labs in 2017. The skyboximaging.com domain is no longer a live product surface;
+  this profile is retained in the API Evangelist network for portfolio-graph and historical reference.'
 url: https://raw.githubusercontent.com/api-evangelist/skyboximaging/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +25,20 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: 'Acquired by Google 2014 (Terra Bella); satellite business sold to Planet Labs 2017; domain
+  skyboximaging.com origin returns HTTP 522 (no live surface).'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Satellite Imagery
+- Earth Observation
+- Geospatial
+- Remote Sensing
+- Analytics
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/skyboximaging-domain-security.yml
 - type: Website
   url: https://skyboximaging.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
