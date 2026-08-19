@@ -28,7 +28,7 @@ x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-note: 'Acquired by Google 2014 (Terra Bella); satellite business sold to Planet Labs 2017; domain
   skyboximaging.com origin returns HTTP 522 (no live surface).'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
